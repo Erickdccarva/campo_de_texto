@@ -1,0 +1,45 @@
+
+
+#bold {
+
+    font-weight: bold
+
+}
+
+#i {
+
+ font-style: italic;
+
+}
+
+#confirmar {
+
+    margin-top: 1px;
+    display: flex;
+    margin-left: 862px;
+    width: 54px;
+
+}
+
+input#aplicar {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"] {
+    content: url('quadrado_branco__2_-removebg-preview.png');
+    appearance: none;
+    display: block;
+    width: 75px;
+    height: 75px;
+    margin-left: 446px;
+    margin-top: -55px;
+
+}
+
+input[type="checkbox"]:checked {
+    content: url('quadrado_branco__3_-removebg-preview.png');
+}

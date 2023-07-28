@@ -1,0 +1,10 @@
+.mySpoiler{
+    background-color: rgb(175, 22, 22);
+    color: transparent;
+    user-select: none;
+  }
+  
+  .mySpoiler:hover{
+    background-color:inherit;
+    color: inherit;
+  }

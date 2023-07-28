@@ -1,0 +1,106 @@
+
+body {
+
+    background-color: burlywood;
+  
+    }
+    
+    #dentroDoHeader
+    {box-sizing: border-box;}
+    
+    
+    #dentroDoHeader {
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    
+    #dentroDoHeader {
+    
+    background-color: blanchedalmond;
+    
+    }
+    
+    img {
+    
+      width: 110px;
+      margin-top: 95px;
+      margin-left: 55px;
+    
+    }
+    
+    #username {
+    
+      margin-top: -65px;
+      margin-left: 70px;
+    }
+    
+    
+    #tag {
+    
+    margin-left: 570px;
+    
+    
+    }
+    
+    .atributos {
+    
+    margin-top: 10px;
+    
+    }
+    
+    
+    #mensagem {
+     display: flex;
+     margin-top: 160px;
+     margin-left: 470px;
+    
+    }
+    
+    .atributos{
+    
+    margin-bottom: 2px;
+    margin-left: 3;
+    }
+    
+    #caixaEnvio {
+     display: flexbox;
+     height: 200px;
+     width: 400px;
+     resize: none;
+     margin-left: 470px;
+     padding-right: 40px;
+    }
+    
+    
+    #caixaRecebimento 
+    
+    {box-sizing: border-box;}
+    
+    
+    #caixaRecebimento {
+      background-color: white;
+      width: 443px;
+      height: 206px;
+      margin-left: 400px;
+      margin-top: -229px;
+      border: 1px solid black;
+      border-radius: 2px;
+    }
+    
+    
+    #recebeMensagem {
+    
+      margin-left: 345px;
+    
+    }
+    
+    
+    #dataHora {
+    
+      margin-left: 500px;
+      width: 445px;
+      margin-top: -22px;
+    }
+    

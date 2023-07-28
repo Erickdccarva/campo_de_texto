@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forúm</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styleButtom.css">
+    <link rel="stylesheet" type="text/css" href="stylela.css">
+</head>
+<body>
+    
+    
+    <header id="titulo"> 
+
+    <div id="dentroDoHeader">
+           <b> Públicação </b>
+    </div>
+
+
+</header>
+
+
+
+<div id="img">
+<img src="chapeuDePalha.png" alt="imagem do chapeu de palha one piece">
+</div>
+
+<div id="username">
+<p onload="userName()" > @Erickdco </p>
+</div>
+ 
+
+<div id="mensagem">
+       <form action="index.html">
+
+      
+
+       <button onclick="boldText(event)" class="atributos" id="bold" type="button">B</button>
+
+       <button onclick="italicText(event)" class="atributos" id="i" type="button">i</button>
+
+       <button onclick="aolicarLista(event)"  class="atributos" id="aplicar" type="button"> li</button>
+
+       <button onclick="liOlText()"  class="atributos" id="li" type="button">li</button>
+
+       <button class="atributos" id="spoiler" type="button">spoiler</button>
+
+       <input type="file"  class="atributos" id="img"></input>
+
+
+    </div>
+ <input id="caixaEnvio" type="text" cols= none rows= null> 
+    
+
+   
+</input>
+
+
+
+
+<input onclick="textoEnvio()"  type="submit" value="Enviar" id="confirmar">
+
+ 
+</form>
+
+</div>
+
+
+
+<p id="dataHora"> </p>
+
+
+<input id="salvar" type="checkbox" value="yes">
+
+    
+
+<script src="script.js"></script>
+</body>
+</html>
